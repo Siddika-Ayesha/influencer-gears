@@ -43,6 +43,7 @@
 .img-container{
     background: url("images/Circle design.svg");
     background-repeat: no-repeat;
+    background-size: 90%;
 }
 
 .img-container img{
@@ -74,4 +75,23 @@ margin-bottom: 20px;
     border: none;
     background-color: var(--btn-color);
     color: var(--btn-text-color);
+}
+
+/* Sponsor section design */
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 20px 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    border-image: linear-gradient(to right,transparent,rgba(128,128,128,0.438),transparent); 
+    border-left: 0;
+    border-right: 0;
+    border-image-slice: 1;
+
+}
+
+.img-container img{
+    
 }
