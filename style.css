@@ -1,0 +1,77 @@
+/* Universal Styles */
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700;800&family=Work+Sans:wght@400;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: FFF;
+    padding-left: 3 ;
+}
+
+/* Common Style */
+:root{
+    --btn-color:#E02C6D;
+    --btn-text-color:#FFF;
+    
+
+}
+
+/* Navigation bar style */
+.nav-bar{
+    display: flex;
+    gap: 50px;
+    margin: 50px;
+    justify-content: space-between;
+}
+.nav-logo{
+    color: #3A3A3A;
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav-menu  ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+    
+}
+.nav-menu{
+    margin-right: 30px;
+}
+/* Banner section */
+.img-container{
+    background: url("images/Circle design.svg");
+    background-repeat: no-repeat;
+}
+
+.img-container img{
+    width: 85%;
+    padding: 20px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.container-details{
+    max-width: 400px;
+}
+.banner-title{
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.banner-description{
+margin-bottom: 20px;
+}
+
+.btn-primary{
+    padding: 15px;
+    border-radius: 25px;
+    border: none;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+}
